@@ -1,4 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
 * {
   font-family: "Source Sans 3", serif;
   font-weight: 400;
@@ -15,4 +95,13 @@
   --actidash: linear-gradient(90deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 100%);
   --dashfed: linear-gradient(90deg, rgba(191,154,202,1) 0%, rgba(150,197,176,1) 100%);
   --actidashnooch: linear-gradient(180deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 50%, rgba(150,197,176,1) 100%);
+}
+
+body {
+  padding: 1.5rem;
+  background-color: #1E1825;
+}
+
+.sme-button {
+  background: var(--actidash);
 }/*# sourceMappingURL=styles.css.map */
