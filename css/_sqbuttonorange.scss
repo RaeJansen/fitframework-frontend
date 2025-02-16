@@ -1,12 +1,13 @@
-@use 'colors' as *;
+@use "colors" as *;
 
-.sme-button {
+.sqo-button {
     background: var(--actidash);
     border-radius: 5px;
     border: none;
+    padding: 1rem;
 }
 
-.sme-button:hover, .sme-button:focus {
+.sqo-button:hover, .sqo-button:focus {
     background: $dark-purple;
     -webkit-box-shadow: inset 0px 0px 0px 10px #000000; 
     box-shadow: inset 0px 0px 0px 2px $fit-orange;
