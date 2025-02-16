@@ -84,7 +84,12 @@ select {
   font-weight: 400;
   font-style: normal;
 }
-* h1, * h2, * h3, * h4, * h5, * button {
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* button {
   font-family: "Hammersmith One", serif;
   font-weight: 400;
   font-style: normal;
