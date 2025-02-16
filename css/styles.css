@@ -1,1 +1,18 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+* {
+  font-family: "Source Sans 3", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+* h1, * h2, * h3, * h4, * h5, * button {
+  font-family: "Hammersmith One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --nutrifit: linear-gradient(90deg, rgba(150,197,176,1) 0%, rgba(255,135,92,1) 100%);
+  --actidash: linear-gradient(90deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 100%);
+  --dashfed: linear-gradient(90deg, rgba(191,154,202,1) 0%, rgba(150,197,176,1) 100%);
+  --actidashnooch: linear-gradient(180deg, rgba(255,135,92,1) 0%, rgba(191,154,202,1) 50%, rgba(150,197,176,1) 100%);
+}/*# sourceMappingURL=styles.css.map */
